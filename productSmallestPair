@@ -41,7 +41,7 @@ class Solution
     {
         if (n <= 2)
             return -1;
-        int ans, temp, check;
+        int temp, check;
         for (int i = 0; i < n; i++)
         {
             for (int j = i + 1; j < n; j++)
